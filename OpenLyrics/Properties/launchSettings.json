@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "OpenLyrics (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "OpenLyrics (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

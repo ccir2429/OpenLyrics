@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="OpenLyrics.ProjectionWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="OpenLyrics Projection">
+
+    <Grid x:Name="RootGrid" Background="Transparent" Padding="40">
+        <MediaPlayerElement x:Name="BackgroundVideo"
+                             Stretch="UniformToFill"
+                             AreTransportControlsEnabled="False"
+                             Visibility="Collapsed" />
+        <TextBlock x:Name="ProjectedText"
+                   Foreground="White"
+                   FontFamily="Segoe UI"
+                   FontSize="64"
+                   LineHeight="76.8"
+                   LineStackingStrategy="BlockLineHeight"
+                   TextLineBounds="Full"
+                   TextAlignment="Center"
+                   TextWrapping="Wrap"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center" />
+    </Grid>
+</Window>
